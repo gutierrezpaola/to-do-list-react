@@ -1,0 +1,14 @@
+.your-tasks {
+    margin-top: 16px;
+    color: #728fdd;
+}
+
+.TodoCounter {
+    margin: 0;
+    color: #728fdd;
+    font-size: 20px;
+}
+
+.TodoCounter--loading {
+    opacity: 25%;
+}

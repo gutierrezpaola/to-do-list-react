@@ -1,0 +1,33 @@
+.button {
+  width: 120px;
+  height: 48px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+  margin: 10px;
+  border: none;
+}
+
+.primary-btn {
+  background-color: white;
+  color: #728fdd;
+  border: 1px solid #728fdd;
+}
+
+.secondary-btn {
+  background-color: #728fdd;
+  color: white;
+}
+
+.circle-btn {
+  border-radius: 50%;
+  width: 50px;
+  background-color: #728fdd;
+  font-size: 40px;
+  color: white;
+}
