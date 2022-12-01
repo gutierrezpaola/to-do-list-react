@@ -10,6 +10,9 @@ import { TodoForm } from "../TodoForm";
 import { Modal } from "../Modal";
 import "./App.css";
 
+import phoneImg from  '../assets/img/phoneImg.png';
+
+
 function App() {
   const {
     error,
@@ -36,7 +39,7 @@ function App() {
             text="Create Task"
             action={() => setOpenModal((prevState) => !prevState)}
           />
-          <img src="/assets/phone-img.png" alt="logo" />
+          <img src={phoneImg} alt="logo" />
         </div>
         <div className="right-side">
           <TodoHeader loading={loading}>

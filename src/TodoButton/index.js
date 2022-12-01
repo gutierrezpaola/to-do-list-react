@@ -3,8 +3,11 @@ import "./TodoButton.css";
 
 function TodoButton(props) {
   const onClickButton = () => {
+    if (props.action) {
     props.action();
+    }
   };
+
 
   return (
     <button
